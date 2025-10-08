@@ -80,13 +80,14 @@ round-trip min/avg/max = 15.775/15.949/16.060 ms
 ---
 
 ## 9. Удалите контейнер с именем pinger
-docker rm pinger
+docker rm pinger<br>
 pinger
 
 ---
 
 ## 10. Удалите образ busybox
-docker container prune
+docker container prune<br>
+
 Untagged: busybox:latest
 Deleted: sha256:d82f458899c9696cb26a7c02d5568f81c8c8223f8661bb2a7988b269c8b9051e
 
